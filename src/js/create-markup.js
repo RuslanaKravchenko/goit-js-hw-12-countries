@@ -47,6 +47,7 @@ export const createMarkup = function (countries, e) {
       refs.content.innerHTML = '';
 
       refs.content.insertAdjacentHTML('beforeend', country(targetCountry));
+      e.value = '';
     }
     return;
   }
