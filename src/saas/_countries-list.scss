@@ -5,7 +5,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: baseline;
+
   padding-top: 50px;
   padding-bottom: 80px;
 }
@@ -19,7 +19,11 @@
 .list-img {
   width: 300px;
   height: 150px;
+  cursor: pointer;
 }
 .countries-title {
-  padding: 10px;
+  margin: 0;
+  padding: 30px 10px;
+  cursor: pointer;
+  color: rgb(3, 35, 71);
 }

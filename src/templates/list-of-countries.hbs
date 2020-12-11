@@ -1,8 +1,10 @@
 <ul class="list countries-list">
   {{#each this}}
   <li class="list-item">
-    <img class="list-img" src="{{flag}}" alt="flag{{name}}" ">
-    <h2 class='countries-title'>{{name}}</h2>
+    <img class="list-img" data-name="{{name}}" src="{{flag}}" alt="flag{{name}}" ">
+      <h2 class='countries-title' data-name=" {{name}}">{{name}}</h2>
+
+
   </li>
   {{/each}}
 </ul>
