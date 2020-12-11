@@ -11,6 +11,7 @@ export const createMarkup = function (countries, e) {
     notice({
       text: 'Too many matches found. Please enter a more specific query!',
       delay: 2500,
+      minHeight: '40px',
     });
   }
   if (countries.length > 1 && countries.length <= 10) {
