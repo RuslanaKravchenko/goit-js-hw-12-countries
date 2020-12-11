@@ -1,0 +1,25 @@
+.list {
+  list-style: none;
+}
+.countries-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+
+.list-item {
+  margin: 15px;
+  flex-basis: 300px;
+  text-align: center;
+}
+
+.list-img {
+  width: 300px;
+  height: 150px;
+}
+.countries-title {
+  padding: 10px;
+}

@@ -1,0 +1,30 @@
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.coutry-list {
+  font-style: italic;
+  font-size: 30px;
+}
+
+.parameter {
+  margin: 0;
+}
+
+.coutry-text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.leng-item {
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.country-img {
+  width: 50%;
+}
