@@ -1,0 +1,45 @@
+{{#each this}}
+
+<h1 class="title title--counrty">{{name}}/{{nativeName}}</h1>
+<div class="wrapper">
+  <div>
+    <ul class="list coutry-list">
+      <li class="coutry-item">
+        <p class="parameter">Capital: <span class="coutry-text">{{capital}}</span></p>
+      </li>
+
+      <li class="coutry-item">
+        <p class="parameter">Population: <span class="coutry-text">{{population}}</span></p>
+
+      </li>
+
+      <li class="coutry-item">
+        <p class="parameter">Area: <span class="coutry-text">{{area}}</span></p>
+      </li>
+
+      <li class="coutry-item">
+        <p class="parameter">Currency: <span class="coutry-text">{{#each currencies}}{{this.code}}
+            /{{this.name}}{{/each}}</span></p>
+      </li>
+
+      <li class="coutry-item">
+        <p class="parameter">Region: <span class="coutry-text">{{region}}</span></p>
+      </li>
+
+      <li class="coutry-item">
+        <p class="parameter">Languages:</p>
+        <ul>
+          {{#each languages}}
+          <li class="leng-item">
+            {{name}}
+          </li>
+          {{/each}}
+        </ul>
+      </li>
+    </ul>
+
+  </div>
+  <img class="country-img" src="{{flag}}" alt="flag{{name}}" width="550">
+</div>
+
+{{/each}}
